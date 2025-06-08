@@ -1,0 +1,753 @@
+{
+    "version": 11,
+    "randomSeed": "0192e6d3ea6d0b17c471dff9cc482684",
+    "graph": {
+        "viewport": {
+            "xmin": -41.55880449100551,
+            "ymin": -21.170466397590296,
+            "xmax": 89.42786388016958,
+            "ymax": 52.85064907589177
+        },
+        "showGrid": false,
+        "showXAxis": false,
+        "showYAxis": false,
+        "degreeMode": true,
+        "product": "geometry-calculator",
+        "__v12ViewportLatexStash": {
+            "xmin": "-41.55880449100551",
+            "xmax": "89.42786388016958",
+            "ymin": "-21.170466397590296",
+            "ymax": "52.85064907589177"
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "folder",
+                "id": "**dcg_geo_folder**",
+                "title": "geometry",
+                "secret": true
+            },
+            {
+                "type": "expression",
+                "id": "41",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#000000",
+                "latex": "\\token{78}=\\operatorname{glider}\\left(\\token{875},0.18\\right)",
+                "dragMode": "XY",
+                "pointOpacity": "0"
+            },
+            {
+                "type": "expression",
+                "id": "32",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{79}=\\left(-5.6,29.8\\right)",
+                "showLabel": true,
+                "label": "A"
+            },
+            {
+                "type": "expression",
+                "id": "56",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{108}=\\operatorname{glider}\\left(\\token{874},0.74\\right)",
+                "pointOpacity": "0"
+            },
+            {
+                "type": "expression",
+                "id": "47",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{109}=\\left(49.1,17.4\\right)",
+                "showLabel": true,
+                "label": "B"
+            },
+            {
+                "type": "expression",
+                "id": "62",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#000000",
+                "latex": "\\token{114}=\\operatorname{segment}\\left(\\token{79},\\token{109}\\right)",
+                "lineStyle": "DASHED",
+                "lineWidth": "1"
+            },
+            {
+                "type": "expression",
+                "id": "219",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{232}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{79},90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "220",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{233}=\\token{232}\\left(\\token{265}\\right)",
+                "showLabel": true,
+                "showAngleLabel": false,
+                "label": "ACenterR"
+            },
+            {
+                "type": "expression",
+                "id": "227",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{239}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{79},-90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "237",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{247}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{109},90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "238",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{248}=\\token{247}\\left(\\token{266}\\right)",
+                "showLabel": true,
+                "showAngleLabel": false,
+                "label": "BCenterR"
+            },
+            {
+                "type": "expression",
+                "id": "245",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{255}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{109},-90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "246",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{256}=\\token{255}\\left(\\token{266}\\right)",
+                "showLabel": true,
+                "showAngleLabel": false,
+                "label": "BCenterL"
+            },
+            {
+                "type": "expression",
+                "id": "70",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{265}=A_{pos}+R\\cdot A_{dir}",
+                "label": "A1",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "71",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{266}=B_{pos}-R\\cdot B_{dir}",
+                "label": "B1",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "303",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#2d70b3",
+                "latex": "\\token{366}=\\operatorname{perpendicular}\\left(\\token{880},\\token{256}\\right)",
+                "lineStyle": "DOTTED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "301",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#2d70b3",
+                "latex": "\\token{367}=\\operatorname{perpendicular}\\left(\\token{880},\\token{233}\\right)",
+                "lineStyle": "DOTTED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "298",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#2d70b3",
+                "latex": "\\token{368}=\\operatorname{perpendicular}\\left(\\token{881},\\token{248}\\right)",
+                "lineStyle": "DOTTED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "296",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#2d70b3",
+                "latex": "\\token{369}=\\operatorname{perpendicular}\\left(\\token{881},\\token{617}\\right)",
+                "lineStyle": "DOTTED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "374",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{388}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{617},90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "385",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{397}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{248},-90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "386",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{401}=\\token{397}\\left(\\operatorname{intersection}\\left(\\token{881},\\token{882}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start B-LR"
+            },
+            {
+                "type": "expression",
+                "id": "375",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{402}=\\token{388}\\left(\\operatorname{intersection}\\left(\\token{885},\\token{881}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start A-LR"
+            },
+            {
+                "type": "expression",
+                "id": "416",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{447}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{233},-90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "425",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#aaaaaa",
+                "latex": "\\token{458}\\left(x\\right)=\\operatorname{rotate}\\left(x,\\token{256},90\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "426",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{459}=\\token{458}\\left(\\operatorname{intersection}\\left(\\token{880},\\token{883}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start B_RL"
+            },
+            {
+                "type": "expression",
+                "id": "417",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{460}=\\token{447}\\left(\\operatorname{intersection}\\left(\\token{884},\\token{880}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start A-RL"
+            },
+            {
+                "type": "expression",
+                "id": "459",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{616}=\\operatorname{midpoint}\\left(\\token{617},\\token{256}\\right)",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "228",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{617}=\\token{239}\\left(\\token{265}\\right)",
+                "showLabel": true,
+                "showAngleLabel": false,
+                "label": "ACenterL"
+            },
+            {
+                "type": "expression",
+                "id": "533",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{620}=\\operatorname{rotate}\\left(\\operatorname{intersection}\\left(\\token{879},\\token{883}\\right),\\token{256},\\cos^{-1}\\left(\\frac{R}{\\operatorname{distance}\\left(\\token{256},\\token{616}\\right)}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start B_LL"
+            },
+            {
+                "type": "expression",
+                "id": "586",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{864}=\\operatorname{midpoint}\\left(\\token{233},\\token{248}\\right)",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "528",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{865}=\\operatorname{rotate}\\left(\\operatorname{intersection}\\left(\\token{885},\\token{879}\\right),\\token{617},\\cos^{-1}\\left(\\frac{R}{\\operatorname{distance}\\left(\\token{617},\\token{616}\\right)}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start A-LL"
+            },
+            {
+                "type": "expression",
+                "id": "597",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{866}=\\operatorname{rotate}\\left(\\operatorname{intersection}\\left(\\token{884},\\token{878}\\right),\\token{233},-\\cos^{-1}\\left(\\frac{R}{\\operatorname{distance}\\left(\\token{233},\\token{864}\\right)}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start_A-RR"
+            },
+            {
+                "type": "expression",
+                "id": "438",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{867}=\\operatorname{rotate}\\left(\\operatorname{intersection}\\left(\\token{882},\\token{878}\\right),\\token{248},\\cos^{-1}\\left(-\\frac{R}{\\operatorname{distance}\\left(\\token{248},\\token{864}\\right)}\\right)\\right)",
+                "showLabel": true,
+                "label": "Start B-RR"
+            },
+            {
+                "type": "expression",
+                "id": "46",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{874}=\\operatorname{circle}\\left(\\token{109},\\token{109}+\\left(0,R\\right)\\right)",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "31",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{875}=\\operatorname{circle}\\left(\\token{79},\\token{79}+\\left(0,R\\right)\\right)",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "39",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{876}=\\operatorname{vector}\\left(\\token{79},\\token{78}\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "53",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{877}=\\operatorname{vector}\\left(\\token{109},\\token{108}\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "284",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{878}=\\operatorname{segment}\\left(\\token{233},\\token{248}\\right)",
+                "showLabel": true,
+                "label": "C_RR",
+                "lineStyle": "DASHED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "280",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{879}=\\operatorname{segment}\\left(\\token{617},\\token{256}\\right)",
+                "showLabel": true,
+                "label": "C_LL",
+                "lineStyle": "DASHED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "277",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{880}=\\operatorname{segment}\\left(\\token{233},\\token{256}\\right)",
+                "showLabel": true,
+                "label": "C_RL",
+                "lineStyle": "DASHED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "266",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{881}=\\operatorname{segment}\\left(\\token{617},\\token{248}\\right)",
+                "showLabel": true,
+                "label": "C_LR",
+                "lineStyle": "DASHED",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "261",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{882}=\\operatorname{circle}\\left(\\token{248},\\token{109}\\right)",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "255",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#c74440",
+                "latex": "\\token{883}=\\operatorname{circle}\\left(\\token{256},\\token{109}\\right)",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "252",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{884}=\\operatorname{circle}\\left(\\token{233},\\token{79}\\right)",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "247",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#388c46",
+                "latex": "\\token{885}=\\operatorname{circle}\\left(\\token{617},\\token{79}\\right)",
+                "lineWidth": "0.5"
+            },
+            {
+                "type": "expression",
+                "id": "857",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{886}=\\operatorname{segment}\\left(\\token{887},\\token{889}\\right)",
+                "showLabel": true,
+                "lineWidth": "6"
+            },
+            {
+                "type": "expression",
+                "id": "26",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{887}=\\left(-10,0\\right)",
+                "hidden": true,
+                "dragMode": "Y"
+            },
+            {
+                "type": "expression",
+                "id": "25",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#000000",
+                "latex": "\\token{888}=\\operatorname{circle}\\left(\\token{887},\\token{889}\\right)",
+                "lineStyle": "DASHED",
+                "lineWidth": "1"
+            },
+            {
+                "type": "expression",
+                "id": "27",
+                "folderId": "**dcg_geo_folder**",
+                "color": "#6042a6",
+                "latex": "\\token{889}=\\left(-10,5.37\\right)",
+                "showLabel": true,
+                "label": "Turning Radius",
+                "dragMode": "Y",
+                "__stashed_V12PointStyle": "SQUARE"
+            },
+            {
+                "type": "expression",
+                "id": "670",
+                "color": "#2d70b3"
+            },
+            {
+                "type": "folder",
+                "id": "841",
+                "title": "Func",
+                "collapsed": true
+            },
+            {
+                "type": "expression",
+                "id": "842",
+                "folderId": "841",
+                "color": "#000000",
+                "latex": "f_{normalize}\\left(v\\right)=\\frac{v}{\\sqrt{v.x^{2}+v.y^{2}}}"
+            },
+            {
+                "type": "expression",
+                "id": "457",
+                "color": "#000000"
+            },
+            {
+                "type": "folder",
+                "id": "437",
+                "title": "Given Input",
+                "collapsed": true
+            },
+            {
+                "type": "expression",
+                "id": "15",
+                "folderId": "437",
+                "color": "#2d70b3",
+                "latex": "R=\\sqrt{\\token{889}.y^{2}}"
+            },
+            {
+                "type": "expression",
+                "id": "36",
+                "folderId": "437",
+                "color": "#6042a6",
+                "latex": "A_{pos}=\\token{79}",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "59",
+                "folderId": "437",
+                "color": "#000000",
+                "latex": "B_{pos}=\\token{109}",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "60",
+                "folderId": "437",
+                "color": "#c74440",
+                "latex": "A_{dir}=\\frac{\\token{876}.\\operatorname{end}-\\token{876}.\\operatorname{start}}{\\token{876}.\\operatorname{length}}",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "61",
+                "folderId": "437",
+                "color": "#2d70b3",
+                "latex": "B_{dir}=\\frac{\\token{877}.\\operatorname{end}-\\token{877}.\\operatorname{start}}{\\token{877}.\\operatorname{length}}",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "455",
+                "color": "#388c46"
+            },
+            {
+                "type": "folder",
+                "id": "440",
+                "title": "Possible Approaches"
+            },
+            {
+                "type": "expression",
+                "id": "635",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{ALR}=\\operatorname{arc}\\left(\\token{79},-\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{402},\\token{79},\\token{617}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{79},\\token{402}\\right)-\\token{617}\\right)+\\token{617},\\token{402}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "713",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{SLR}=\\operatorname{vector}\\left(\\token{402},\\token{401}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "675",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{BLR}=\\operatorname{arc}\\left(\\token{401},\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{401},\\token{109},\\token{248}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{109},\\token{401}\\right)-\\token{248}\\right)+\\token{248},\\token{109}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "717",
+                "folderId": "440",
+                "color": "#c74440"
+            },
+            {
+                "type": "expression",
+                "id": "715",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{ARL}=\\operatorname{arc}\\left(\\token{79},\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{460},\\token{79},\\token{233}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{79},\\token{460}\\right)-\\token{233}\\right)+\\token{233},\\token{460}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "718",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{SRL}=\\operatorname{vector}\\left(\\token{460},\\token{459}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "714",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{BRL}=\\operatorname{arc}\\left(\\token{459},-\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{459},\\token{109},\\token{256}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{109},\\token{459}\\right)-\\token{256}\\right)+\\token{256},\\token{109}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "716",
+                "folderId": "440",
+                "color": "#000000"
+            },
+            {
+                "type": "expression",
+                "id": "758",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{ALL}=\\operatorname{arc}\\left(\\token{79},-\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{865},\\token{79},\\token{617}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{79},\\token{865}\\right)-\\token{617}\\right)+\\token{617},\\token{865}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "759",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{SLL}=\\operatorname{vector}\\left(\\token{865},\\token{620}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "760",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{BLL}=\\operatorname{arc}\\left(\\token{620},-\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{620},\\token{109},\\token{256}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{109},\\token{620}\\right)-\\token{256}\\right)+\\token{256},\\token{109}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "761",
+                "folderId": "440",
+                "color": "#c74440"
+            },
+            {
+                "type": "expression",
+                "id": "762",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{ARR}=\\operatorname{arc}\\left(\\token{79},\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{866},\\token{79},\\token{233}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{79},\\token{866}\\right)-\\token{233}\\right)+\\token{233},\\token{866}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "763",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{SRR}=\\operatorname{vector}\\left(\\token{866},\\token{867}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "764",
+                "folderId": "440",
+                "color": "#2d70b3",
+                "latex": "S_{BRR}=\\operatorname{arc}\\left(\\token{867},\\operatorname{signum}\\left(\\operatorname{directedangle}\\left(\\token{867},\\token{109},\\token{248}\\right)\\right)R\\cdot f_{normalize}\\left(\\operatorname{midpoint}\\left(\\token{109},\\token{867}\\right)-\\token{248}\\right)+\\token{248},\\token{109}\\right)",
+                "hidden": true,
+                "lineWidth": "4"
+            },
+            {
+                "type": "expression",
+                "id": "441",
+                "color": "#6042a6"
+            },
+            {
+                "type": "folder",
+                "id": "843",
+                "title": "Approach Lengths"
+            },
+            {
+                "type": "expression",
+                "id": "844",
+                "folderId": "843",
+                "color": "#c74440",
+                "latex": "L_{LR}=\\operatorname{total}\\left(\\left[S_{ALR}.\\operatorname{length},S_{SLR}.\\operatorname{length},S_{BLR}.\\operatorname{length}\\right]\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "845",
+                "folderId": "843",
+                "color": "#2d70b3",
+                "latex": "L_{RL}=\\operatorname{total}\\left(\\left[S_{ARL}.\\operatorname{length},S_{SRL}.\\operatorname{length},S_{BRL}.\\operatorname{length}\\right]\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "846",
+                "folderId": "843",
+                "color": "#388c46",
+                "latex": "L_{LL}=\\operatorname{total}\\left(\\left[S_{ALL}.\\operatorname{length},S_{SLL}.\\operatorname{length},S_{BLL}.\\operatorname{length}\\right]\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "847",
+                "folderId": "843",
+                "color": "#6042a6",
+                "latex": "L_{RR}=\\operatorname{total}\\left(\\left[S_{ARR}.\\operatorname{length},S_{SRR}.\\operatorname{length},S_{BRR}.\\operatorname{length}\\right]\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "849",
+                "color": "#c74440"
+            },
+            {
+                "type": "folder",
+                "id": "867",
+                "title": "Shortest Approach"
+            },
+            {
+                "type": "text",
+                "id": "865",
+                "folderId": "867",
+                "text": "if(distance(ACenterL,BCenterL || distance(ACenterR,BCenterR) < 2R) < 2R) \n    throw INVALID"
+            },
+            {
+                "type": "expression",
+                "id": "850",
+                "folderId": "867",
+                "color": "#2d70b3",
+                "latex": "O_{arcA}=\\left\\{L_{LR}\\cdot L_{RL}<L_{LL}\\cdot L_{RR}:\\left\\{L_{LR}<L_{RL}:S_{ALR},S_{ARL}\\right\\},\\left\\{L_{LL}<L_{RR}:S_{ALL},S_{ARR}\\right\\}\\right\\}\\left\\{\\operatorname{distance}(\\token{617},\\token{256})\\ge2R\\right\\}\\left\\{\\operatorname{distance}\\left(\\token{233},\\token{248}\\right)\\ge2R\\right\\}",
+                "lineWidth": "6"
+            },
+            {
+                "type": "expression",
+                "id": "853",
+                "folderId": "867",
+                "color": "#2d70b3",
+                "latex": "O_{straight}=\\left\\{L_{LR}\\cdot L_{RL}<L_{LL}\\cdot L_{RR}:\\left\\{L_{LR}<L_{RL}:S_{SLR},S_{SRL}\\right\\},\\left\\{L_{LL}<L_{RR}:S_{SLL},S_{SRR}\\right\\}\\right\\}\\left\\{\\operatorname{distance}(\\token{617},\\token{256})\\ge2R\\right\\}\\left\\{\\operatorname{distance}\\left(\\token{233},\\token{248}\\right)\\ge2R\\right\\}",
+                "lineWidth": "6"
+            },
+            {
+                "type": "expression",
+                "id": "854",
+                "folderId": "867",
+                "color": "#2d70b3",
+                "latex": "O_{arcB}=\\left\\{L_{LR}\\cdot+L_{RL}<L_{LL}\\cdot L_{RR}:\\left\\{L_{LR}<L_{RL}:S_{BLR},S_{BRL}\\right\\},\\left\\{L_{LL}<L_{RR}:S_{BLL},S_{BRR}\\right\\}\\right\\}\\left\\{\\operatorname{distance}(\\token{617},\\token{256})\\ge2R\\right\\}\\left\\{\\operatorname{distance}\\left(\\token{233},\\token{248}\\right)\\ge2R\\right\\}",
+                "lineWidth": "6"
+            },
+            {
+                "type": "expression",
+                "id": "863",
+                "color": "#000000"
+            },
+            {
+                "type": "expression",
+                "id": "874",
+                "color": "#6042a6"
+            }
+        ]
+    },
+    "includeFunctionParametersInRandomSeed": true,
+    "doNotMigrateMovablePointStyle": true
+}
